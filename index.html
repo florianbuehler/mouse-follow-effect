@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Proximity Effect</title>
+    <title>Mouse Follow Effect</title>
     <script defer src="app.js"></script>
     <style>
         body {
@@ -29,7 +29,9 @@
         }
 
         #morty-left-eye,
-        #morty-right-eye {
+        #morty-right-eye,
+        #rick-left-eye,
+        #rick-right-eye {
           position: absolute;
           scale: 40%;
         }
@@ -38,8 +40,10 @@
 <body>
     <main>
         <img id="rick-and-morty" src="assets/rick-and-morty.png" alt="">
-        <img id="morty-left-eye" src="assets/morty-eye.png" alt="" style="top: 198px; left: 85px;">
+        <img id="morty-left-eye" src="assets/morty-eye.png" alt="" style="top: 198px; left: 86px;">
         <img id="morty-right-eye" src="assets/morty-eye.png" alt="" style="top: 191px; left: 128px;">
+        <img id="rick-left-eye" src="assets/morty-eye.png" alt="" style="top: 105px; left: 182px;">
+        <img id="rick-right-eye" src="assets/morty-eye.png" alt="" style="top: 103px; left: 223px;">
     </main>
 </body>
 </html>
